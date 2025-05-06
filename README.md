@@ -1,1 +1,1 @@
-# This is a project page of RAPHAEL.
+# This is a project page of DanceGRPO.

@@ -110,7 +110,7 @@
 Differential Equations (ODEs)-based sampling paradigms, instability in large-scale training, and lack of validation for video generation. 
 This paper introduces DanceGRPO, the first framework to adapt Group Relative Policy Optimization (GRPO) to visual generation, unleashing one unified RL algorithm across two generative paradigms (diffusion models and rectified flows), three tasks (text-to-image, text-to-video, image-to-video), four foundation models (Stable Diffusion, HunyuanVideo, FLUX, SkyReel-I2V), and five reward models (image/video aesthetics, text-image alignment, video motion quality, and binary reward). To our knowledge, DanceGRPO is the first RL-based unified framework
 capable of seamless adaptation across diverse generative paradigms, tasks, foundational models, and reward models. DanceGRPO demonstrates consistent and substantial improvements, which outperforms baselines by up to 181% on benchmarks such as HPS-v2.1, CLIP Score, VideoAlign, and GenEval. 
-Notably, DanceGRPO not only can stabilize policy optimization for complex video generation, but also enables generative policy to better capture  denoising trajectories for Best-of-N inference scaling and  learn from sparse binary feedback.
+Notably, DanceGRPO not only can stabilize policy gradient for complex video generation, but also enables generative policy to better capture  denoising trajectories for Best-of-N inference scaling and  learn from sparse binary feedback.
 Our results establish DanceGRPO as a robust and versatile solution for scaling Reinforcement Learning from Human Feedback (RLHF) tasks in visual generation, offering new insights into harmonizing reinforcement learning and visual synthesis. Code will be released.
           </p>
         </div>
